@@ -1,0 +1,66 @@
+.collection {
+    margin: 100px 60px;
+}
+
+.collection-header {
+    color: #111111;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 60px;
+}
+
+.collection-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-decoration: none;
+}
+
+.collection-item-image {
+    width: 90%;
+}
+
+.collection-item-header {
+    color: #111111;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.collection-item-price {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.collection-swiper  .swiper-button-next,
+.collection-swiper  .swiper-button-prev {
+    width: 40px;
+}
+
+.collection-swiper .swiper-button-next::after {
+    content: '';
+    background: url('../imgs/icons/arrow.png') no-repeat center;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.collection-swiper .swiper-button-prev::after {
+    content: '';
+    background: url('../imgs/icons/arrow.png') no-repeat center;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+.collection-swiper .swiper-button-disabled { 
+    display: none !important; 
+}
+
+@media screen and (max-width: 1279px) {
+    .collection-header {
+        font-size: 24px;
+    }
+}

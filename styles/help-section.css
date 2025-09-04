@@ -1,0 +1,83 @@
+.help-section {
+    background-color: #F5F5F5;
+    padding: 80px 60px;
+}
+
+.help-header {
+    font-size: 30px;
+    font-weight: 400;
+    color: #111111;
+    text-align: center;
+}
+
+.help-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 60px auto;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.two-fields-row {
+    display: flex;
+    gap: 24px;
+}
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: calc(50% - 12px);
+}
+
+.field-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+}
+
+.field-input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea.field-input {
+    resize: none;
+    height: 120px;
+}
+
+.submit-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #111111;
+    padding: 16px 32px;
+    border-radius: 8px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1279px) {
+    .help-header {
+        font-size: 24px;
+    }
+
+    .two-fields-row {
+        flex-direction: column;
+    }
+
+    .field-container {
+        width: auto;
+    }
+}

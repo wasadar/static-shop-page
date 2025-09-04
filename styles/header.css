@@ -1,0 +1,67 @@
+.header {
+    height: 84px;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.menu-button {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 24.29px;
+    height: 23.71px;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #313131;
+    margin: 0 0 0 5.28px;
+}
+
+.navigation-links {
+    display: flex;
+    gap: 32px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #111111;
+}
+
+.cart-image {
+    width: 24px;
+    height: 24px;
+}
+
+.navigation-links-portable {
+    display: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .menu-button {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navigation-links {
+        display: none;
+    }
+}
